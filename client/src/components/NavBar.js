@@ -40,7 +40,10 @@ class NavBar extends Component {
           <Link to="/about">
             <Menu.Item name="about" />
           </Link>
-          { this.rightNavs() }
+          <Link to="/projectpage">
+            <Menu.Item name="projects" />
+          </Link>
+          {/* { this.rightNavs() } */}
         </Menu>
       </div>
     );

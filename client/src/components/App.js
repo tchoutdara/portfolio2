@@ -7,6 +7,7 @@ import Register from './Register';
 import Flash from './Flash';
 import Home from './Home';
 import About from './About';
+import ProjectPage from './ProjectPage';
 import ProtectedRoute from './ProtectedRoute';
 import AuthRoute from './AuthRoute';
 import FetchUser from './FetchUser';
@@ -21,6 +22,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
+            <Route exact path="/projectpage" component={ProjectPage} />
             <AuthRoute exact path="/login" component={Login} />
             <AuthRoute exact path="/register" component={Register} />
             <Route component={NoMatch} />
