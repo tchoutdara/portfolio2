@@ -18,6 +18,9 @@ class About extends Component {
           </p>
           <Divider />
         <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Hobbies</Header>
+        <p align="center">
+            I have so many hobbies, list them here.          
+          </p>
       </Container>
     );
   }
