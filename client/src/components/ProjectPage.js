@@ -13,11 +13,11 @@ class ProjectPage extends Component {
           <Divider />
         <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Projects</Header>
           <Divider />
-        <Header as="p" textAlign="center" style={{marginTop:"25px"}}>To-Dont List</Header>
+        <Header as="p" textAlign="center" style={{marginTop:"25px"}}>To-Dont List(Screen Shot)</Header>
           <Divider />
-        <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Call of Duty 4 Web App</Header>
+        <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Call of Duty 4 Web App(Screen Shot)</Header>
           <Divider />
-        <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Call of Duty 4 React Native App</Header>
+        <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Call of Duty 4 React Native App(Screen Shot)</Header>
       </Container>
     );
   }
