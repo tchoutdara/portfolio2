@@ -3,6 +3,8 @@ import {
   Header,
   Container,
   Divider,
+  Grid,
+  Image,
  } from 'semantic-ui-react';
 
 class About extends Component {
@@ -20,7 +22,19 @@ class About extends Component {
         <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Hobbies</Header>
         <p align="center">
             I have so many hobbies, list them here. Add images(maybe hire artist to do fun pictures for hobbies)         
-          </p>
+        </p>
+        <p align="center">
+            Gaming        
+        </p>
+        <p align="center">
+            Hunting/Fishing       
+        </p>
+        <p align="center">
+            Cars        
+        </p>
+        <p align="center">
+            Snowboarding       
+        </p>
       </Container>
     );
   }
