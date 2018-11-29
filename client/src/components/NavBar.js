@@ -3,6 +3,9 @@ import { Menu } from 'semantic-ui-react';
 import { Link, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { handleLogout } from '../reducers/user';
+import { Button, Image } from 'semantic-ui-react';
+import GithubLogo from '../images/githubicon.png';
+import LinkedinLogo from '../images/linkedinicon.png';
 
 class NavBar extends Component {
   rightNavs = () => {
@@ -26,12 +29,8 @@ class NavBar extends Component {
         <Link to="/login">
           <Menu.Item name="Login" />
         </Link> */}
-        <a href="https://github.com/tchoutdara">
-            <Menu.Item name="github" />
-        </a>
-        <a href="https://www.linkedin.com/in/tonychoutdara/">
-            <Menu.Item name="linkedin" />
-        </a>
+          <Image src={GithubLogo} style={{height:"40px", width:"40px", margin:"5px"}} />
+          <Image src={LinkedinLogo} style={{height:"40px", width:"40px", margin:"5px", marginright:"5px"}} />
       </Menu.Menu>
     );
   }
