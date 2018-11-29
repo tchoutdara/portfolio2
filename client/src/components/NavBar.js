@@ -29,8 +29,18 @@ class NavBar extends Component {
         <Link to="/login">
           <Menu.Item name="Login" />
         </Link> */}
-          <Image src={GithubLogo} style={{height:"40px", width:"40px", margin:"5px"}} />
-          <Image src={LinkedinLogo} style={{height:"40px", width:"40px", margin:"5px", marginright:"5px"}} />
+          <Image 
+            src={GithubLogo} style={{height:"30px", width:"30px", margin:"5px"}} 
+            as='a'
+            href='https://github.com/tchoutdara'
+            target='_blank'
+            />
+          <Image 
+            src={LinkedinLogo} style={{height:"30px", width:"30px", margin:"5px"}} 
+            as='a'
+            href='https://www.linkedin.com/in/tonychoutdara/'
+            target='_blank'
+          />
       </Menu.Menu>
     );
   }
