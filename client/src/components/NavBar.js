@@ -23,24 +23,18 @@ class NavBar extends Component {
     }
     return (
       <Menu.Menu position="right">
-        {/* <Link to="/register">
-          <Menu.Item name="Register" />
-        </Link>
-        <Link to="/login">
-          <Menu.Item name="Login" />
-        </Link> */}
-          <Image 
-            src={GithubLogo} style={{height:"30px", width:"30px", margin:"5px"}} 
-            as='a'
-            href='https://github.com/tchoutdara'
-            target='_blank'
-            />
-          <Image 
-            src={LinkedinLogo} style={{height:"30px", width:"30px", margin:"5px"}} 
-            as='a'
-            href='https://www.linkedin.com/in/tonychoutdara/'
-            target='_blank'
+        <Image 
+          src={GithubLogo} style={{height:"30px", width:"30px", margin:"5px"}} 
+          as='a'
+          href='https://github.com/tchoutdara'
+          target='_blank'
           />
+        <Image 
+          src={LinkedinLogo} style={{height:"30px", width:"30px", margin:"5px"}} 
+          as='a'
+          href='https://www.linkedin.com/in/tonychoutdara/'
+          target='_blank'
+        />
       </Menu.Menu>
     );
   }
