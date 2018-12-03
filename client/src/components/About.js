@@ -30,7 +30,9 @@ class About extends Component {
             and a Playstation 4, so if you want to game contact me for my gamer tags.
         </p>
         <p align="center">
-            Hunting/Fishing       
+            Hunting/Fishing - Even though I love coding and gaming I do try my best to get outdoors. I am from Boise, Idaho and grew up around
+            a lot of hunting and fishing. If you are also into this hobby let me know if you would like another hunting or fishing partner 
+            because I am new to the Salt Lake City area.      
         </p>
         <p align="center">
             Cars        
