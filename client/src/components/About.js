@@ -35,10 +35,12 @@ class About extends Component {
             because I am new to the Salt Lake City area.      
         </p>
         <p align="center">
-            Cars        
+            Cars - Another fun hobby that allows me to use some troubleshooting and problem solving skills. I enjoy working on cars and racing 
+            cars when I get the opportunity. I drive a Subaru WRX, but I enjoy every car and the work the owners put into them. Again, if you love
+            cars and what to do car stuff let me know.        
         </p>
         <p align="center">
-            Snowboarding       
+            Snowboarding - This hobby I just recently picked up again        
         </p>
       </Container>
     );
