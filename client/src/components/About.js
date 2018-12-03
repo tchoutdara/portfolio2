@@ -40,7 +40,10 @@ class About extends Component {
             cars and what to do car stuff let me know.        
         </p>
         <p align="center">
-            Snowboarding - This hobby I just recently picked up again        
+            Snowboarding - This hobby I just recently picked up again because Utah has some of the best resorts that I could not let pass! I 
+            started snowboarding when I was about 12 years old and rode heavily upto the end of high school. Then I was having to adult 
+            a lot more and it was a hobby that I did not do as frequently. Of course this had to change now that I am living in Utah, so
+            lets go boarding sometime!
         </p>
       </Container>
     );
