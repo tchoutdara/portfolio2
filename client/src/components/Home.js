@@ -6,8 +6,18 @@ import {
   Image,
  } from 'semantic-ui-react';
  import Selfie from '../images/tchout.png';
+ 
 
 class Home extends Component {
+
+  stackImage = () => {
+    return (
+      <div>
+        
+      </div>
+    )
+  }
+
   render() {
     return (
       <Container>
@@ -15,6 +25,7 @@ class Home extends Component {
           <Header as="h1" textAlign="center" style={{marginTop:"10px"}}>
             Hello! My name is Tony Choutdara and I am a Full Stack Web Developer!
           </Header>
+
             <Divider />
           <Header as="h3" textAlign="center">
             Skill set section(ADD images of languages and then list out skills underneath)

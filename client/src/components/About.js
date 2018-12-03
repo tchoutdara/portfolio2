@@ -24,7 +24,10 @@ class About extends Component {
             I have so many hobbies, list them here. Add images(maybe hire artist to do fun pictures for hobbies)         
         </p>
         <p align="center">
-            Gaming        
+            Gaming - I guess you could call me a pretty big gamer. I love to play challenging/competitive games in mostly the 
+            first-person-shooter genre. I am also trying to get into Smash Bros. Ultimate on the Switch, so give me some pointers! 
+            I am mostly a PC Gamer(#PCMasterRace) though I do own a Nintendo Switch 
+            and a Playstation 4, so if you want to game contact me for my gamer tags.
         </p>
         <p align="center">
             Hunting/Fishing       
