@@ -4,6 +4,7 @@ import {
   Container,
   Divider,
   Image,
+  List,
  } from 'semantic-ui-react';
 import Selfie from '../images/tchout.png';
 import Railslogo from '../images/RubyRails.png'
@@ -22,40 +23,24 @@ class Home extends Component {
           </Header>
             <Divider />
           <Container style={{display:"flex", flexDirection:"row", justifyContent:"center"}}>
-            <div style={{justifyContent:"center"}}>
-              <ul>
-                •	React
-                •	React Native
-                •	Ruby
-                •	JavaScript | ES6
-                •	HTML | CSS
-                •	Axios
-                •	Rails
-              </ul>
-            </div>
-            <div style={{justifyContent:"center"}}>
-              <p>
-                •	Redux
-              </p>
-              <p>
-                •	PostgreSQL
-              </p>
-              <p>
-                •	RSpec
-              </p>
-              <p>
-                •	GitHub
-              </p>
-              <p>
-                •	Phabricator
-              </p>
-              <p>
-                •	BootStrap | Semantic
-              </p>
-              <p>
-                •	Microsoft Excel 
-              </p>
-            </div>
+            <List>
+              <List.Item>React</List.Item>
+              <List.Item>React Native</List.Item>
+              <List.Item>Ruby</List.Item>
+              <List.Item>JavaScript | ES6</List.Item>
+              <List.Item>HTML | CSS</List.Item>
+              <List.Item>Axios</List.Item>
+              <List.Item>Ruby on Rails</List.Item> 
+            </List>
+            <List>
+              <List.Item>Redux</List.Item>
+              <List.Item>PostgreSQL</List.Item>
+              <List.Item>RSpec</List.Item>
+              <List.Item>GitHub</List.Item>
+              <List.Item>Phabricator</List.Item>
+              <List.Item>BootStrap | Semantic</List.Item>
+              <List.Item>Microsoft Excel</List.Item> 
+            </List>
           </Container>
       </Container>
     );
