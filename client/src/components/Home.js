@@ -22,25 +22,40 @@ class Home extends Component {
           </Header>
             <Divider />
           <Container style={{display:"flex", flexDirection:"row", justifyContent:"center"}}>
-            <Image src={Railslogo} style={{height:"150px", width:"250px", marginTop:"10px"}} />
-            <Image src={ReactLogo} style={{height:"150px", width:"300px", marginTop:"10px"}} />
-            <Image src={PostgreSQLLogo} style={{height:"150px", width:"250px", marginTop:"10px"}} />
-            <p>
-              •	React
-              •	React Native
-              •	Ruby
-              •	JavaScript | ES6
-              •	HTML | CSS
-              •	Axios
-              •	Rails
-              •	Redux
-              •	PostgreSQL
-              •	RSpec
-              •	GitHub
-              •	Phabricator
-              •	BootStrap | Semantic
-              •	Microsoft Excel 
-            </p>
+            <div style={{justifyContent:"center"}}>
+              <ul>
+                •	React
+                •	React Native
+                •	Ruby
+                •	JavaScript | ES6
+                •	HTML | CSS
+                •	Axios
+                •	Rails
+              </ul>
+            </div>
+            <div style={{justifyContent:"center"}}>
+              <p>
+                •	Redux
+              </p>
+              <p>
+                •	PostgreSQL
+              </p>
+              <p>
+                •	RSpec
+              </p>
+              <p>
+                •	GitHub
+              </p>
+              <p>
+                •	Phabricator
+              </p>
+              <p>
+                •	BootStrap | Semantic
+              </p>
+              <p>
+                •	Microsoft Excel 
+              </p>
+            </div>
           </Container>
       </Container>
     );
