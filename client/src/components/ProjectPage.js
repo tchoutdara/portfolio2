@@ -18,6 +18,8 @@ class ProjectPage extends Component {
         <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Call of Duty 4 Web App(Screen Shot)</Header>
           <Divider />
         <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Call of Duty 4 React Native App(Screen Shot)</Header>
+          <Divider />
+        <Header as="p" textAlign="center" style={{marginTop:"25px"}}>MovieDB App(Screen Shot)</Header>
       </Container>
     );
   }
