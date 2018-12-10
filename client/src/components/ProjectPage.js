@@ -21,10 +21,13 @@ class ProjectPage extends Component {
             <Image src={BO4} style={{height:"200px", width:"300px", marginRight:"20px"}} />
             <p>Stat tracker for Call of Duty Black OPs 4</p>
         </Container>
-          <Divider />
         <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Call of Duty 4 React Native App(Screen Shot)</Header>
           <Divider />
         <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Movie Data Base App(Screen Shot)</Header>
+        <Container style={{display:"flex", flexDirection:"row", justifyContent:"center", fontSize:"18px"}}>
+            <Image src={MDB} style={{height:"200px", width:"300px", marginRight:"20px"}} />
+            <p>Web Application using The Movie Database API to pull up information for Movies, TV Shows, and People.</p>
+        </Container>
       </Container>
     );
   }
