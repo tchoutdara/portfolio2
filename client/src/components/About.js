@@ -16,7 +16,7 @@ class About extends Component {
         <Header as="p" textAlign="center" style={{marginTop:"25px"}}>About Myself</Header>
           <p align="center">
             Hi all I am a highly motivated, detail oriented, and hard working individual. I enjoy 
-            trying to figure out complex porblems and using my creativity when the opportunity arises.          
+            trying to figure out complex problems and using my creativity when the opportunity arises.          
           </p>
           <Divider />
         <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Hobbies/Enjoyments</Header>
