@@ -3,8 +3,6 @@ import {
   Header,
   Container,
   Divider,
-  Grid,
-  Image,
  } from 'semantic-ui-react';
 
 class About extends Component {

@@ -5,7 +5,6 @@ import {
   Divider,
   Image,
   List,
-  Segment,
  } from 'semantic-ui-react';
 import Selfie from '../images/tchout.png';
 import Railslogo from '../images/RubyRails.png'
