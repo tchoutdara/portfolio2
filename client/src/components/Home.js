@@ -34,7 +34,7 @@ class Home extends Component {
             <div style={{margin:"20px"}}>
               <List>
                 <List.Item>Ruby</List.Item>
-                <List.Item>Ruby on Rails</List.Item> 
+                <List.Item><Image src={Railslogo} style={{height:"20px", width:"20px", marginRight:"5px"}} />Ruby on Rails</List.Item> 
                 <List.Item>HTML</List.Item> 
                 <List.Item>CSS</List.Item>
               </List>
