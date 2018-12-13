@@ -41,7 +41,7 @@ class Home extends Component {
             </div>
             <div style={{margin:"20px"}}>
               <List>
-                <List.Item>Redux</List.Item>
+                <List.Item>MySQL</List.Item>
                 <List.Item>PostgreSQL</List.Item>
                 <List.Item>RSpec</List.Item>
                 <List.Item>GitHub</List.Item>
