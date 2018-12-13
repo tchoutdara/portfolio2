@@ -6,23 +6,17 @@ import {
   Image,
   List,
  } from 'semantic-ui-react';
-import Selfie from '../images/tchout.png';
 import Railslogo from '../images/RubyRails.png'
 import ReactLogo from '../images/reactlogo.png'
 import PostgreSQLLogo from '../images/postgresql-logo.png'
+import ReactLogo from '../images/reactlogo.png'
 
 
-
-class Home extends Component {
+class SkillSets extends Component {
 
   render() {
     return (
       <Container>
-        <Image src={Selfie} circular centered style={{height:"300px", width:"250px", marginTop:"20px"}} />
-          <Header as="h1" textAlign="center" style={{marginTop:"20px"}}>
-            Hello! My name is Tony Choutdara and I am a Full Stack Web Developer!
-          </Header>
-            <Divider />
           <Container style={{display:"flex", flexDirection:"row", justifyContent:"center", fontSize:"18px"}}>
             <div style={{margin:"20px"}}>
               <List>
@@ -62,4 +56,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default SkillSets;
