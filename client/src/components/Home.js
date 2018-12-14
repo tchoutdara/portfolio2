@@ -20,7 +20,7 @@ class Home extends Component {
             Hello! My name is Tony Choutdara and I am a Full Stack Web Developer!
           </Header>
             <Divider />
-            {SkillSets}    
+            <SkillSets />    
       </Container>
     );
   }
