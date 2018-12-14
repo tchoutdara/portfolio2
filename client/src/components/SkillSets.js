@@ -9,7 +9,6 @@ import {
 import Railslogo from '../images/RubyRails.png'
 import ReactLogo from '../images/reactlogo.png'
 import PostgreSQLLogo from '../images/postgresql-logo.png'
-import ReactLogo from '../images/reactlogo.png'
 
 
 class SkillSets extends Component {
