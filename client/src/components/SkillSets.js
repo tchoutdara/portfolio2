@@ -7,8 +7,8 @@ import {
   List,
  } from 'semantic-ui-react';
 import Railslogo from '../images/RubyRails.png'
-import ReactLogo from '../images/reactlogo.png'
 import PostgreSQLLogo from '../images/postgresql-logo.png'
+import ReactLogo from '../images/reactlogo.png'
 
 
 class SkillSets extends Component {
@@ -19,7 +19,7 @@ class SkillSets extends Component {
           <Container style={{display:"flex", flexDirection:"row", justifyContent:"center", fontSize:"18px"}}>
             <div style={{margin:"20px"}}>
               <List>
-                <List.Item>React</List.Item>
+                <List.Item><Image src={ReactLogo} style={{height:"20px", width:"20px", marginRight:"5px"}} />React</List.Item>
                 <List.Item>React Native</List.Item>
                 <List.Item>JavaScript | ES6</List.Item>
                 <List.Item>Redux</List.Item>
@@ -36,7 +36,7 @@ class SkillSets extends Component {
             <div style={{margin:"20px"}}>
               <List>
                 <List.Item>MySQL</List.Item>
-                <List.Item>PostgreSQL</List.Item>
+                <List.Item><Image src={PostgreSQLLogo} style={{height:"20px", width:"20px", marginRight:"5px"}} />PostgreSQL</List.Item>
                 <List.Item>RSpec</List.Item>
                 <List.Item>GitHub</List.Item>
               </List>
