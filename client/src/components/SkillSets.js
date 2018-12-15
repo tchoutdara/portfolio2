@@ -9,6 +9,7 @@ import {
 import Railslogo from '../images/RubyRails.png'
 import PostgreSQLLogo from '../images/postgresql-logo.png'
 import ReactLogo from '../images/reactlogo.png'
+import ReduxLogo from '../images/redux.png'
 
 
 class SkillSets extends Component {
@@ -22,7 +23,7 @@ class SkillSets extends Component {
                 <List.Item><Image src={ReactLogo} style={{height:"20px", width:"20px", marginRight:"5px"}} />React</List.Item>
                 <List.Item>React Native</List.Item>
                 <List.Item>JavaScript | ES6</List.Item>
-                <List.Item>Redux</List.Item>
+                <List.Item><Image src={ReduxLogo} style={{height:"20px", width:"20px", marginRight:"5px"}} />Redux</List.Item>
               </List>
             </div>
             <div style={{margin:"20px"}}>
