@@ -4,7 +4,6 @@ import {
   Container,
   Divider,
   Image,
-  List,
  } from 'semantic-ui-react';
 import Selfie from '../images/tchout.png';
 import SkillSets from './SkillSets';
