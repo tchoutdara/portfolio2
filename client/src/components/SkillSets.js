@@ -10,6 +10,8 @@ import Railslogo from '../images/RubyRails.png'
 import PostgreSQLLogo from '../images/postgresql-logo.png'
 import ReactLogo from '../images/reactlogo.png'
 import ReduxLogo from '../images/redux.png'
+import NativeLogo from '../images/reactnative.png'
+import JSLogo from '../images/JavaScript-logo.png'
 
 
 class SkillSets extends Component {
@@ -20,10 +22,22 @@ class SkillSets extends Component {
           <Container style={{display:"flex", flexDirection:"row", justifyContent:"center", fontSize:"18px"}}>
             <div style={{margin:"20px"}}>
               <List>
-                <List.Item><Image src={ReactLogo} style={{height:"20px", width:"20px", marginRight:"5px"}} />React</List.Item>
-                <List.Item>React Native</List.Item>
-                <List.Item>JavaScript | ES6</List.Item>
-                <List.Item><Image src={ReduxLogo} style={{height:"20px", width:"20px", marginRight:"5px"}} />Redux</List.Item>
+                <List.Item>
+                  <Image src={ReactLogo} style={{height:"20px", width:"20px", marginRight:"5px"}} />
+                  React
+                </List.Item>
+                <List.Item>
+                  <Image src={NativeLogo} style={{height:"20px", width:"20px", marginRight:"5px"}} />
+                  React Native
+                </List.Item>
+                <List.Item>
+                  <Image src={JSLogo} style={{height:"20px", width:"20px", marginRight:"5px"}} />
+                  JavaScript | ES6
+                </List.Item>
+                <List.Item>
+                  <Image src={ReduxLogo} style={{height:"20px", width:"20px", marginRight:"5px"}} />
+                  Redux
+                </List.Item>
               </List>
             </div>
             <div style={{margin:"20px"}}>
