@@ -18,8 +18,8 @@ class Home extends Component {
           <Header as="h1" textAlign="center" style={{marginTop:"20px"}}>
             Hello! My name is Tony Choutdara and I am a Full Stack Web Developer!
           </Header>
-            <Divider />
-            <SkillSets />    
+          <Divider />
+          <SkillSets />    
       </Container>
     );
   }

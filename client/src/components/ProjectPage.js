@@ -27,7 +27,7 @@ class ProjectPage extends Component {
             <Image src={BO4} style={{height:"200px", width:"300px", marginRight:"20px"}} />
             <p>Stat tracker for Call of Duty Black OPs 4</p>
         </Container>
-        <Divider />
+          <Divider />
         <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Call of Duty 4 React Native App</Header>
         <Container style={{display:"flex", flexDirection:"row", justifyContent:"center", fontSize:"18px", width:"700px"}}>
             <Image src={BO4Native} style={{height:"300px", width:"150px", marginRight:"20px"}} />
