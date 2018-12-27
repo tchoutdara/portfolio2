@@ -16,7 +16,7 @@ class About extends Component {
             trying to figure out complex problems and using my creativity when the opportunity arises.          
           </p>
           <Divider />
-        <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Hobbies/Enjoyments</Header>
+        <Header as="h1" textAlign="center" style={{marginTop:"25px"}}>Hobbies/Enjoyments</Header>
         <p align="center">
             I have so many hobbies, list them here. Add images(maybe hire artist to do fun pictures for hobbies)         
         </p>
