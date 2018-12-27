@@ -17,10 +17,8 @@ class ProjectPage extends Component {
         <Header as="h1" textAlign="center" style={{marginTop:"25px"}}>Projects Page</Header>
           <Divider />
         <Header as="p" textAlign="center" style={{marginTop:"25px"}}>To-Dont List</Header>
-        <Container style={{display:"flex", flexDirection:"row", justifyContent:"center", fontSize:"18px", width:"700px"}}>
-            <Image src={TDList} style={{height:"200px", width:"300px", marginRight:"20px"}} />
-            <p>A to do list with Google map integration.</p>
-        </Container>
+            <Image src={TDList} centered style={{height:"200px", width:"300px"}} />
+            <Container textAlign="center">A to do list with Google map integration.</Container>
           <Divider />
         <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Call of Duty 4 Web App</Header>
         <Container style={{display:"flex", flexDirection:"row", justifyContent:"center", fontSize:"18px", width:"700px"}}>
