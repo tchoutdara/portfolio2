@@ -11,11 +11,12 @@ import ProjectPage from './ProjectPage';
 import ProtectedRoute from './ProtectedRoute';
 import AuthRoute from './AuthRoute';
 import FetchUser from './FetchUser';
+import { Segment } from 'semantic-ui-react'
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <Segment style={styles.background}>
         <NavBar />
         <Flash />
         <FetchUser>
@@ -28,10 +29,18 @@ class App extends Component {
             <Route component={NoMatch} />
           </Switch>
         </FetchUser>
-      </div>
+      </Segment>
     );
   }
 }
+
+const styles = {
+  background: {
+    backgroundColor: "#262626",
+    color: "white"
+  },
+}
+
 
 export default App;
 

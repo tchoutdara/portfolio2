@@ -3,7 +3,7 @@ import { Menu } from 'semantic-ui-react';
 import { Link, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { handleLogout } from '../reducers/user';
-import { Button, Image } from 'semantic-ui-react';
+import { Button, Image, Segment, } from 'semantic-ui-react';
 import GithubLogo from '../images/githubicon.png';
 import LinkedinLogo from '../images/linkedinicon.png';
 
@@ -41,22 +41,28 @@ class NavBar extends Component {
 
   render() {
     return (
-      <div>
-        <Menu pointing secondary>
+      <Segment style={styles.background}>
+        <Menu secondary>
           <Link to="/">
-            <Menu.Item name="home" />
+            <Menu.Item name="home" style={{color: "white"}}/>
           </Link>
           <Link to="/about">
-            <Menu.Item name="about" />
+            <Menu.Item name="about" style={{color: "white"}}/>
           </Link>
           <Link to="/projectpage">
-            <Menu.Item name="projects" />
+            <Menu.Item name="projects" style={{color: "white"}}/>
           </Link>
           { this.rightNavs() }
         </Menu>
-      </div>
+      </Segment>
     );
   }
+}
+
+const styles = {
+  background: {
+    backgroundColor: "#0086b3",
+  },
 }
 
 const mapStateToProps = state => {

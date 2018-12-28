@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { 
   Header,
-  Container,
+  Segment,
   Divider,
   Image,
  } from 'semantic-ui-react';
@@ -13,14 +13,15 @@ class Home extends Component {
 
   render() {
     return (
-      <Container>
+      <Segment basic>
         <Image src={Selfie} circular centered style={{height:"300px", width:"250px", marginTop:"20px"}} />
-          <Header as="h1" textAlign="center" style={{marginTop:"20px"}}>
+          <Header as="h1" textAlign="center" style={{marginTop:"20px", color:"white"}}>
             Hello! My name is Tony Choutdara and I am a Full Stack Web Developer!
           </Header>
-          <Divider />
           <SkillSets />    
-      </Container>
+          <SkillSets />
+          <SkillSets />
+      </Segment>
     );
   }
 }
