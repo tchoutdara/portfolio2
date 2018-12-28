@@ -18,9 +18,6 @@ class About extends Component {
           <Divider />
         <Header as="h1" textAlign="center" style={{marginTop:"25px"}}>Hobbies/Enjoyments</Header>
         <p align="center">
-            I have so many hobbies, list them here. Add images(maybe hire artist to do fun pictures for hobbies)         
-        </p>
-        <p align="center">
             Gaming - I guess you could call me a pretty big gamer. I love to play challenging/competitive games in mostly the 
             first-person-shooter genre. I am also trying to get into Smash Bros. Ultimate on the Switch, so give me some pointers! 
             I am mostly a PC Gamer(#PCMasterRace) though I do own a Nintendo Switch 
