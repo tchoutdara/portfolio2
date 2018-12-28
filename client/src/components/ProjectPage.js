@@ -42,12 +42,14 @@ class ProjectPage extends Component {
               Stat tracker for Call of Duty Black OPs 4 on a mobile devise.
             </Container>
           <Divider />
-        <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Movie Data Base App</Header>
-        <Container style={{display:"flex", flexDirection:"row", justifyContent:"center", fontSize:"18px", width:"700px"}}>
-            <Image src={MDB} style={{height:"200px", width:"300px", marginRight:"20px"}} />
-            <p>Web Application using The Movie Database API to 
-              pull up information for Movies, TV Shows, and People.</p>
-        </Container>
+        <Header as="p" textAlign="center" style={{marginTop:"25px"}}>
+          Movie Data Base App
+        </Header>
+          <Image src={MDB} centered style={{height:"200px", width:"300px", marginBottom:"20px"}} />
+            <Container textAlign="center">
+              Web Application using The Movie Database API to 
+              pull up information for Movies, TV Shows, and People.
+            </Container>
       </Container>
     );
   }
