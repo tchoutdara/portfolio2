@@ -21,7 +21,7 @@ class ProjectPage extends Component {
         <Header as="p" textAlign="center" style={{marginTop:"25px"}}>
           To-Dont List
         </Header>            
-          <Image src={TDList} centered style={{height:"200px", width:"300px"}} />
+          <Image src={TDList} centered style={{height:"200px", width:"300px", marginBottom:"10px"}} />
             <Container textAlign="center">
               A to do list with Google map integration.
             </Container>
@@ -29,7 +29,7 @@ class ProjectPage extends Component {
         <Header as="p" textAlign="center" style={{marginTop:"25px"}}>
           Call of Duty 4 Web App
         </Header>
-          <Image src={BO4} style={{height:"200px", width:"300px", marginRight:"20px"}} />
+          <Image src={BO4} centered style={{height:"200px", width:"300px", marginBottom:"10px"}} />
             <Container textAlign="center">
               Stat tracker for Call of Duty Black OPs 4
             </Container>
