@@ -34,11 +34,13 @@ class ProjectPage extends Component {
               Stat tracker for Call of Duty Black OPs 4
             </Container>
           <Divider />
-        <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Call of Duty 4 React Native App</Header>
-        <Container style={{display:"flex", flexDirection:"row", justifyContent:"center", fontSize:"18px", width:"700px"}}>
-            <Image src={BO4Native} style={{height:"300px", width:"150px", marginRight:"20px"}} />
-            <p>Stat tracker for Call of Duty Black OPs 4 on a mobile devise.</p>
-        </Container>
+        <Header as="p" textAlign="center" style={{marginTop:"25px"}}>
+          Call of Duty 4 React Native App
+        </Header>
+          <Image src={BO4Native} centered style={{height:"300px", width:"150px", marginBottom:"10px"}} />
+            <Container textAlign="center">
+              Stat tracker for Call of Duty Black OPs 4 on a mobile devise.
+            </Container>
           <Divider />
         <Header as="p" textAlign="center" style={{marginTop:"25px"}}>Movie Data Base App</Header>
         <Container style={{display:"flex", flexDirection:"row", justifyContent:"center", fontSize:"18px", width:"700px"}}>
