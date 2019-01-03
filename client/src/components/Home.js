@@ -18,10 +18,14 @@ class Home extends Component {
           <Header as="h1" textAlign="center" style={{marginTop:"20px", color:"white"}}>
             Hello! My name is Tony Choutdara and I am a Full Stack Web Developer!
           </Header>
-          <SkillSets />    
+          <SkillSets />  
+          <Divider />  
           <Header as="h1" textAlign="center" style={{marginTop:"20px", color:"white"}}>
             Resume 
           </Header>
+          <Segment basic textAlign="center">
+            Lay this section out similar to a resume with work experience, education, and professional summary.
+          </Segment>
       </Segment>
     );
   }
