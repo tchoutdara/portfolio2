@@ -23,7 +23,9 @@ class ProjectPage extends Component {
         </Header>            
           <Image src={TDList} centered style={{height:"200px", width:"300px", marginBottom:"10px"}} />
             <Container textAlign="center">
-              A to do list with Google map integration.
+              A ToDo list with Google map integration. I worked on this project with a team and the main focus behind this
+              application is use a auto filter based off of readius to the item. It allows the users to keep out clutter and only handle
+              list that are close to them.
             </Container>
           <Divider />
         <Header as="p" textAlign="center" style={{marginTop:"25px", color:"white"}}>
