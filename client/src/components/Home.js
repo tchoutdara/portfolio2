@@ -19,6 +19,9 @@ class Home extends Component {
             Hello! My name is Tony Choutdara and I am a Full Stack Web Developer!
           </Header>
           <SkillSets />    
+          <Header as="h1" textAlign="center" style={{marginTop:"20px", color:"white"}}>
+            Resume 
+          </Header>
       </Segment>
     );
   }
