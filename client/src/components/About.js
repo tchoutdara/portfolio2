@@ -9,14 +9,13 @@ class About extends Component {
   render() {
     return (
       <Container>
-        <Header as="h1" textAlign="center" style={{marginTop:"25px"}}>A little bit about me...</Header>
-          <Divider />
+        <Header as="h1" textAlign="center" style={{marginTop:"25px", color:"white"}}>A little bit about me...</Header>
           <p align="center">
             Hi all I am a highly motivated, detail oriented, and hard working individual. I enjoy 
             trying to figure out complex problems and using my creativity when the opportunity arises.          
           </p>
           <Divider />
-        <Header as="h1" textAlign="center" style={{marginTop:"25px"}}>Hobbies/Enjoyments</Header>
+        <Header as="h1" textAlign="center" style={{marginTop:"25px", color:"white"}}>Hobbies/Enjoyments</Header>
         <p align="center">
             Gaming - I guess you could call me a pretty big gamer. I love to play challenging/competitive games in mostly the 
             first-person-shooter genre. I am also trying to get into Smash Bros. Ultimate on the Switch, so give me some pointers! 
@@ -35,6 +34,7 @@ class About extends Component {
             cars when I get the opportunity. I drive a Subaru WRX, but I enjoy every car and the work the owners put into them. Again, if you love
             cars and what to do car stuff let me know.        
         </p>
+        <Divider />
         <p align="center">
             Snowboarding - This hobby I just recently picked up again because Utah has some of the best resorts that I could not let pass! I 
             started snowboarding when I was about 12 years old and rode heavily upto the end of high school. Then I was having to adult 
