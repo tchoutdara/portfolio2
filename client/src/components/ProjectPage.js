@@ -49,7 +49,7 @@ class ProjectPage extends Component {
             </Container>
           <Divider />
         <Header as="p" textAlign="center" style={{marginTop:"25px", color:"white"}}>
-          Movie Data Base App
+          Movie Data Base Application
         </Header>
           <Image src={MDB} centered style={{height:"200px", width:"300px", marginBottom:"20px"}} />
             <Container textAlign="center">
