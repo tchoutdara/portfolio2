@@ -53,8 +53,8 @@ class ProjectPage extends Component {
         </Header>
           <Image src={MDB} centered style={{height:"200px", width:"300px", marginBottom:"20px"}} />
             <Container textAlign="center">
-              Web Application using The Movie Database API to 
-              pull up information for Movies, TV Shows, and People.
+              Web Application using The Movie Database API to pull up information for Movies, TV Shows, and People. The app is
+              configured show the weekly trends for each category.
             </Container>
       </Container>
     );
