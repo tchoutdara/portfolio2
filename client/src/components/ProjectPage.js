@@ -39,11 +39,13 @@ class ProjectPage extends Component {
             </Container>
           <Divider />
         <Header as="p" textAlign="center" style={{marginTop:"25px", color:"white"}}>
-          Call of Duty 4 React Native App
+          Call of Duty 4 React Native Application
         </Header>
           <Image src={BO4Native} centered style={{height:"300px", width:"150px", marginBottom:"10px"}} />
             <Container textAlign="center">
-              Stat tracker for Call of Duty Black OPs 4 on a mobile devise.
+              Another stat tracker for Call of Duty Black OPs 4, but this one was built with React Native. This was built to have the
+              user pull up their gaming stats on the phone. Allows for easy use anywhere and if you want to show off your high level
+              stats to your buddies when not around a PC.
             </Container>
           <Divider />
         <Header as="p" textAlign="center" style={{marginTop:"25px", color:"white"}}>
