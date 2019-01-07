@@ -29,11 +29,13 @@ class ProjectPage extends Component {
             </Container>
           <Divider />
         <Header as="p" textAlign="center" style={{marginTop:"25px", color:"white"}}>
-          Call of Duty 4 Web App
+          Call of Duty 4 Web Application
         </Header>
           <Image src={BO4} centered style={{height:"200px", width:"300px", marginBottom:"10px"}} />
             <Container textAlign="center">
-              Stat tracker for Call of Duty Black OPs 4
+              This is a stat tracker for Call of Duty Black OPs 4. The user can input their Call of Duty 4 alias into the search bar
+              and pull up information about themselves. There is also features for top 20 players for every gaming platform, it is a fun
+              easy app for gamers.
             </Container>
           <Divider />
         <Header as="p" textAlign="center" style={{marginTop:"25px", color:"white"}}>
