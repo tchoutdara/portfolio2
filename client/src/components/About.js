@@ -23,11 +23,13 @@ class About extends Component {
             I am mostly a PC Gamer(#PCMasterRace) though I do own a Nintendo Switch 
             and a Playstation 4, so if you want to game contact me for my gamer tags.
         </p>
+        <Divider />
         <p align="center">
             Hunting/Fishing - Even though I love coding and gaming I do try my best to get outdoors. I am from Boise, Idaho and grew up around
             a lot of hunting and fishing. If you are also into this hobby let me know if you would like another hunting or fishing partner 
             because I am new to the Salt Lake City area.      
         </p>
+        <Divider />
         <p align="center">
             Cars - Another fun hobby that allows me to use some troubleshooting and problem solving skills. I enjoy working on cars and racing 
             cars when I get the opportunity. I drive a Subaru WRX, but I enjoy every car and the work the owners put into them. Again, if you love
