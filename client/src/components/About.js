@@ -30,6 +30,7 @@ class About extends Component {
             because I am new to the Salt Lake City area.      
         </p>
         <Divider />
+        <Header as="h3" textAlign="center" style={{marginTop:"25px", color:"white"}}>Cars</Header>
         <p align="center">
             Cars - Another fun hobby that allows me to use some troubleshooting and problem solving skills. I enjoy working on cars and racing 
             cars when I get the opportunity. I drive a Subaru WRX, but I enjoy every car and the work the owners put into them. Again, if you love
