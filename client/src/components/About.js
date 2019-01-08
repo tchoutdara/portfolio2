@@ -15,7 +15,7 @@ class About extends Component {
             trying to figure out complex problems and using my creativity when the opportunity arises.          
           </p>
           <Divider />
-        <Header as="h1" textAlign="center" style={{marginTop:"25px", color:"white"}}>Hobbies/Enjoyments</Header>
+        <Header as="h1" textAlign="center" style={{marginTop:"25px", color:"white"}}>Gaming</Header>
         <p align="center">
             Gaming - I guess you could call me a pretty big gamer. I love to play challenging/competitive games in mostly the 
             first-person-shooter genre. I am also trying to get into Smash Bros. Ultimate on the Switch, so give me some pointers! 
