@@ -15,7 +15,7 @@ class About extends Component {
             trying to figure out complex problems and using my creativity when the opportunity arises.          
           </p>
           <Divider />
-        <Header as="h1" textAlign="center" style={{marginTop:"25px", color:"white"}}>Gaming</Header>
+        <Header as="h3" textAlign="center" style={{marginTop:"25px", color:"white"}}>Gaming</Header>
         <p align="center">
             Gaming - I guess you could call me a pretty big gamer. I love to play challenging/competitive games in mostly the 
             first-person-shooter genre. I am also trying to get into Smash Bros. Ultimate on the Switch, so give me some pointers! 
@@ -23,6 +23,7 @@ class About extends Component {
             and a Playstation 4, so if you want to game contact me for my gamer tags.
         </p>
         <Divider />
+        <Header as="h3" textAlign="center" style={{marginTop:"25px", color:"white"}}>Hunting and Fishing</Header>
         <p align="center">
             Hunting/Fishing - Even though I love coding and gaming I do try my best to get outdoors. I am from Boise, Idaho and grew up around
             a lot of hunting and fishing. If you are also into this hobby let me know if you would like another hunting or fishing partner 
