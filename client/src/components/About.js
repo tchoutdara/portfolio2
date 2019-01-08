@@ -37,6 +37,7 @@ class About extends Component {
             cars and what to do car stuff let me know.        
         </p>
         <Divider />
+        <Header as="h3" textAlign="center" style={{marginTop:"25px", color:"white"}}>Snowboarding</Header>
         <p align="center">
             Snowboarding - This hobby I just recently picked up again because Utah has some of the best resorts that I could not let pass! I 
             started snowboarding when I was about 12 years old and rode heavily upto the end of high school. Then I was having to adult 
