@@ -29,6 +29,9 @@ class SkillSets extends Component {
   render() {
     return (
       <Container>
+          <Header as="h3" textAlign="center" style={{marginTop:"20px", color:"white"}}>
+            Developer Skills
+          </Header>
           <Container style={{display:"flex", flexDirection:"row", justifyContent:"center", fontSize:"18px"}}>
             <div style={{margin:"20px"}}>
               <List>
