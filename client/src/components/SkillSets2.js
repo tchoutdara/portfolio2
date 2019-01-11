@@ -57,11 +57,11 @@ class SkillSets2 extends Component {
               <List>
                 <List.Item>
                   <Image src={RubyLogo} style={{height:"20px", width:"20px", marginRight:"5px"}} /> 
-                  Ruby
+                  Data Analysis
                 </List.Item>
                 <List.Item>
                   <Image src={Railslogo} style={{height:"20px", width:"20px", marginRight:"5px"}} />
-                  Ruby on Rails
+                  Technical Writing
                 </List.Item> 
                 <List.Item>
                   <Image src={HTMLLogo} style={{height:"20px", width:"20px", marginRight:"5px"}} />
