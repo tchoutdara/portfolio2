@@ -29,24 +29,27 @@ class SkillSets2 extends Component {
   render() {
     return (
       <Container>
+          <Header as="h3" textAlign="center" style={{marginTop:"20px", color:"white"}}>
+            Analyst Skills
+          </Header>
           <Container style={{display:"flex", flexDirection:"row", justifyContent:"center", fontSize:"18px"}}>
             <div style={{margin:"20px"}}>
               <List>
                 <List.Item>
                   <Image src={ReactLogo} style={{height:"20px", width:"20px", marginRight:"5px"}} />
-                  React
+                  Reporting
                 </List.Item>
                 <List.Item>
                   <Image src={NativeLogo} style={{height:"20px", width:"20px", marginRight:"5px"}} />
-                  React Native
+                  Microsoft Excel
                 </List.Item>
                 <List.Item>
                   <Image src={JSLogo} style={{height:"20px", width:"20px", marginRight:"5px"}} />
-                  JavaScript | ES6
+                  Microsoft PowerPoint
                 </List.Item>
                 <List.Item>
                   <Image src={ReduxLogo} style={{height:"20px", width:"20px", marginRight:"5px"}} />
-                  Redux
+                  Microsoft Word
                 </List.Item>
               </List>
             </div>
